@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/' do
+get '/hiroak' do
 "こんにちは、これはHeroakiのホームページです。"	
 
 end

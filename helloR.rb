@@ -1,35 +1,5 @@
 require 'sinatra'
 
-# require './name'
-
-=begin
-get '/' do
-  code = "<%= Time.now %>"
-  erb code
-end
-=end
-
-=begin
-get '/' do
- erb :index
-end
-=end
-
-=begin
-get '/' do 
-<<EOS
-<html>
- <head>
-  <title>AIIT Hello</title>
- </head>
- <body>
-  <H1>Hellow world, Nakai</H1>
-  こんにちは、これはHerokuで動作するWebアプリです
- </body>
-</html>
-EOS
-end
-=end
 
 get '/mabonki0725/:name' do
   # "GET /hello/foo" と "GET /hello/bar" にマッチ

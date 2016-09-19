@@ -15,6 +15,7 @@ get '/' do
 end
 =end
 
+=begin
 get '/' do 
 <<EOS
 <html>
@@ -28,6 +29,8 @@ get '/' do
 </html>
 EOS
 end
+=end
+
 get '/mabonki0725/:name' do
   # "GET /hello/foo" と "GET /hello/bar" にマッチ
   # params['name'] は 'foo' か 'bar'

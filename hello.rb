@@ -5,5 +5,6 @@ require './hiroak'
 require './hellom'
 
 get '/' do
-  "Hello World!"
+  @title = 'enPiT sinatra_team WebSite!'
+  erb :index
 end

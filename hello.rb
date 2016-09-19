@@ -1,5 +1,6 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World!"
+  @title = 'enPiT sinatra_team WebSite!'
+  erb :index
 end

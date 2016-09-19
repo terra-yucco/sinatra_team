@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title><%= @title %></title>
+
+  <script type="text/javascript">
+  function Jump(){
+    var myURL = '/' + document.myForm.txtURL.value;
+    location.href = myURL;
+    return;
+  }
+  </script>
+
+</head>
+<body>
+  <h1><%= @title %></h1>
+  <div>
+    <h2>誰をお探しですか？</h2>
+    <form name="myForm">
+      <input type="text" name="txtURL">
+      <input type="button" value="移動" onclick="Jump();">
+    </form>
+  </div>
+</body>
+</html>
